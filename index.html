@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    
+    <title>mini project</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+   
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid ">
+          <img src="hamme.svg" id="s0" >
+           <div class="nav-set"></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ps-5" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+              <li class="nav-item dropdown">
+                
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Design spotlight
+                  </a>
+                  <ul id="drop1" class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="visual">      
+                    <h6 class="visual1">Visual documents</h6>
+            <ul >
+              <div class="vis1">
+
+              <li>Worksuite </li><br>
+              <li>Docs </li><br>
+              <li>Presentations</li><br>
+              <li>Whiteboards</li><br>
+              <li>PDF editor</li><br>
+              <li>Graphs and charts</li><br>
+            </div>
+            </ul> 
+
+
+
+              <h6 class="visual2">Photos and videos</h6>
+            <ul>
+              <div class="vis2">
+              <li>Video editor</li><br>
+              <li>YouTube video editor</li><br>
+              <li>Photo editor</li><br>
+              <li>Photo collages</li><br>
+            </div>
+  
+            </ul> 
+
+              <h6 class="visual3">Print</h6>
+
+              <ul>
+
+                <div class="vis3">
+              
+                <li  >Business cards</li><br>
+                <li>Cards</li><br>
+                <li>Invitations</li><br>
+                <li>Mugs</li><br>
+                <li>T-shirts</li><br>
+                <li>Hoodies</li><br>
+                <li>Calendars</li><br>
+                <li>Labels</li><br>
+              </div>
+
+              </ul>
+
+              <h6 class="visual5">Marketing</h6>
+
+              <ul>
+                <div class="vis4">
+                <li>Logos</li><br>
+                <li>Posters</li><br>
+                <li>Flyers</li>
+                <li>Brochuress</li><br>
+                <li>Social media</li><br>
+                <li>Website</li><br>
+                <li>Stickers</li><br>
+                <li>Yard signs</li><br>
+                <li id="qr">QR  Code Generator</li>
+              </div>
+
+              </ul>
+              <div id="dropcard" class="card" style="width: 18rem;">
+                <img src="dropcard1" id="dropcard1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 id="dropcap" class="card-title">Browse Canva templates ></h6>
+                  <p id="dropname" class="card-text">Choose from thousands of free, <br> ready-to-use templates.</p>
+                </div>
+              </div>
+
+          </div>
+                  </ul>
+
+                  <li><hr class="dropdown-divider"></li>
+                    
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Business
+                  </a>
+                      <div>
+
+
+
+
+
+                  <ul id="drop2" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="bus">
+          
+                    
+                    
+                    <h6 class="case1">Use cases</h6>
+                <ul class="caso1">
+                    <li> Create content faster</li><br>
+                    <li>Engage your audience</li><br>
+                    <li>Build your brand</li><br>
+                    <li>Improve collaboration</li><br>
+                    <li>Plan and schedule</li><br>
+                    <li>Manage your assets</li><br>
+                    <li>Brainstorms and workshops</li><br>
+                    <li>Increase design Productivity</li><br>
+                  </ul>
+
+
+                    
+                  <h6 class="case2">Features</h6>
+                  <ul class="caso2">
+                      <li> Invite your team</li><br>
+                      <li>Team templates  </li><br>
+                      <li>Brand management</li><br>
+                      <li>content management</li><br>
+                      <li>Productivity</li><br>
+                      <li>Brand controls  </li><br>
+                      <li>SSO & security</li><br>
+                      <li>Integrations </li><br>
+                  
+                    </ul>
+                      
+                    <h6 class="case3">Industries</h6>
+                <ul class="caso3">
+                    <li> Media and publishing  </li><br>
+                    <li>Newsroom </li><br>
+                    <li>Real estate</li><br>
+                    <li>Health and fitness</li><br>
+                    <li>Technology</li><br>
+                    <li>Sports </li><br>
+                    <li>Retail  </li><br>
+                    <li>Startups</li><br>
+                
+                  </ul>
+                    
+                  <h6 class="case4">Departments </h6>
+                  <ul class="caso4">
+                      <li>Market</li><br>
+                    <li>Internal communications</li><br>
+                    <li> Creative agencies</li><br>
+                    <li>Sales</li><br>
+                    <li></li>
+                    <li></li>
+                  
+                    </ul>
+                  
+                    
+                      <div class="po"><img class="alow" src="rel1"   alt=""> <br> 
+                      <img  class="alow1"  src="rel2" alt=""> <br>
+                      <img class="die" src="rel3" alt="rel3"> </div>
+                          
+
+
+                      <li > <h6 class="qr1">Visual Worksuite ></h6> </li>
+                      <li class="qr2">Reimagine the way you work.</li>
+
+                       <li > <h6 class="qr3">Case studies ></h6> </li>
+                      <li class="qr4">See how some of the world's best <br> companies use Canva.</li> 
+
+                     <li> <h6 class="qr5">Visual Worksuite ></h6> </li>
+                      <li class="qr6">For teams of all sizes wanting to <br> create together.</li> 
+      
+                                      
+                  </ul>
+                
+                  
+
+              </div>                
+                </li>
+              
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Education
+              </a>
+              <ul id="drop3" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+
+                
+
+                <div class="edu" >
+
+
+
+                  <img id="ed1" src="pl1" alt="">
+
+                      <br>
+                  <img id="ed2" src="pl2" alt="">
+
+                          <br>
+                  <img id="ed3" src="pl3" alt="">
+
+                   <br>
+                
+                   
+
+               
+                  <div id="on">
+                  <img id="ed4" src="pl4" alt="">
+                  
+                  <br>
+
+                  <img id="ed5" src="pl6.jpg" alt="">
+
+                  <br>
+                  
+                  <img class="ed6" src="pl5" alt="">
+                </div>
+
+
+                </div>
+
+                <div id="educard" class="card" style="width: 18rem;">
+                  <img id="educard1" src="educard" id="dropcard1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 id="" class="card-title">Become an education creator  ></h6>
+                    <p id="pub" class="card-text">Create and publish your own <br> resources on Canva and earn by <br> sharing.</p>
+                  </div>
+                </div>
+                <li ><h6 id="tc1">Teachers and schools</h6></li>
+                <li id="tc2">Create and collaborate visually in <br> the classroom.</li>
+                
+
+
+                <li><h6 id="tc3">Students</h6></li>
+                <li id="tc4">Designs and documents to boost <br> your learning.</li>
+
+                <li><h6 id="tc5"> Free teacher resources</h6></li>
+                <li id="tc6">Tutorials, courses, webinars and <br> more, just for educators.</li>
+
+
+
+                <li><h6 id="tc7"> LMS integrations</h6></li>
+               <li id="tc8">Integrate Canva with your learning <br> management system.</li>
+
+
+                <li><h6 id="tc9">Case studies</h6></li>
+                <li id="tc10">Hear how others deliver creative <br> and collaborative learning.</li>
+
+
+
+                <li><h6 id="tc11">Higher Education</h6></li>
+                <li id="tc12">Inspire future generations with the <br> power of design.</li>
+              </ul>
+
+            
+              
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Plans and pricing   
+              </a>
+              <ul id="drop4" class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <div class="element">
+
+
+
+                <div class="sah1" style="width: 18rem;">
+                  <img class="card-img-top" id="sahu3" src="third1" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="te1">Free ></h5>
+                    <p class="te2">For anyone wanting to design <br> anything, on your own or with others. <br> And it's free forever.</p>
+                  </div>
+                </div>               
+                
+                
+                <div class="sah2" style="width: 18rem;">
+                  <img class="card-img-top" id="sahu3" src="third2" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="te1">Pro ></h5>
+                    <p class="te2">For individuals wanting unlimited <br> access to premium content and <br> design tools.</p>
+                  </div>
+                </div>               
+                
+
+                
+                <div class="sah3" style="width: 18rem;">
+                  <img class="card-img-top" id="sahu3" src="third3" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="te1">Teams ></h5>
+                    <p class="te2">
+                      For teams of all sizes wanting to <br> create together, with premium <br> workplace and brand tools.
+                      Compare pricing</p>
+                  </div>
+                </div>               
+                
+                  <ul>
+
+
+                    <li class="tool1"><h6>Education ></h6></li>
+                    <li class="tool22">A powerful, free tool for <br> classrooms, districts and students.</li>
+
+
+                    <li class="tool3"><h6>Not-for-profit ></h6></li>
+                    <li class="tool4">Canva Pro is free for all registered <br> nonprofits. Apply today.</li>
+
+
+                  </ul>
+
+                  <h6 id="ook">Compare pricing ></h6>
+
+              </div>
+
+
+
+              
+                      <br>
+              <img id="third5" src="third5"  alt="">
+                <br>
+                <img id="third2" src="third4" alt="">
+              
+              </ul>
+              
+            </li>
+
+
+              
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Learn
+              </a>
+              <ul id="drop5" class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <div>
+
+                <img id="b1" src="b1.jpeg"  alt="">
+                    <br>
+                <img id="b2" src="b2" alt="">
+                <br>
+                <img id="b33" src="b3" alt="">
+                <br>
+                <img id="b4" src="b4" alt="">
+                <br>
+                <img id="b5" src="b5" alt="">
+
+              </div>
+
+                <div id="go">
+                <h6 id="es1">Create top designs ></h6>
+                  <li id="es2">Access step-by-step guides and <br> create unique designs.</li>
+              <div id="res">
+                  <li>Logo maker</li><br>
+                  <li>Flyer maker</li><br>
+                  <li>Banner maker</li><br>
+                  <li>Photo collage maker</li><br>
+                  <li>Poster maker</li><br>
+                  <li>Resume maker</li><br> 
+                </div>
+
+                <div>
+                </div>
+
+
+                  <h6 id="es3">Blog > </h6>
+
+                  <li id="es4">Explore articles and resources.</li>
+
+                  <br>
+
+                  <h6 id="es5">Design school ></h6>
+
+                  <li id="es6">Enjoy tutorials and courses.</li>
+
+                    <br>
+
+                    <h6 id="es7">Events></h6>
+                  <li id="es8">Be inspired by experts and trends.</li>
+
+                </div>
+
+
+                <br>
+
+                <h6 id="es9">Help centre > </h6>
+                <li id="es10">Get technical support and help.</li>
+                
+                <div class="baba">
+                <div class="educard1" style="width: 18rem;">
+                  <img class="card-img-top" id="sahu3" class="gf" src="b6"  alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="te1">Getting started  ></h5>
+                    <p class="te2">
+                      Try our quick intro tutorial and get <br> designing on Canva, like a pro.</p>
+                  </div>
+                </div>           
+              </div>
+
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+          <form class="d-flex" style="padding-right: 100px;">
+
+            <input  id="searchbar" class="form-control " type="search"  placeholder="Try logo, poster, anything!" aria-label="Search">
+          </form>
+          <h4><i id="boom" class="bi bi-question-circle me-4"></i></h4>
+          <button id="s2" class="btn btn-outline-dark  me-4">Login</button><br>
+          <button id="s3" class="btn btn-outline-dark ">Sign up</button>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+
+
+  
+    <div id="Sem">
+     
+    <h1 class="ss" style="text-align: center;">What will you design today ?</h1>
+
+    <h4 id="s5">
+      canva makes it easy to create professional designs and to share or point
+      them.
+    </h4>
+
+    <button id="s6">sign up for free</button>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <img
+      src="https://content-management-files.canva.com/cdn-cgi/image/format=auto,w=300/22f18aa3-ac5c-45b6-bd4a-93fbfdd754f2/template-1.jpg"
+      id="s7"
+    />
+    <br />
+
+    <img src="second2.png" id="s8" />
+
+    <br />
+
+    <video width="800" height="522" autoplay loop muted id="s9">
+      <source src="hero-banner-en-1600x852.mp4" type="video/MP4" />
+    </video>
+
+    <br />
+
+    <img
+      src="https://content-management-files.canva.com/cdn-cgi/image/format=auto,w=306/673b652f-2614-43ff-8647-81ecbdb04678/template-3.jpg"
+      id="s10"
+      alt=""
+    />
+
+    <br /><br /><br />
+    <img
+      src="https://content-management-files.canva.com/cdn-cgi/image/format=auto,w=340/35b5c343-4194-4ae8-90f1-7ec803d4600d/template-4.jpg"
+      id="s11"
+      alt=""
+    />
+    <br />
+
+    <h2 id="s12">A perfect fit for everyone</h2>
+
+    <div id="ree">
+    <h3 id="s13">Canva Free</h3>
+    <p id="s14">
+      For anyone wanting to design anything,<br />
+      on your own or with others. No design <br />
+      experience required, and it's free forever.
+    </p>
+    <button id="s15" type="button" class="btn btn-secondary">
+      Get Canva Free
+    </button>
+    <h3 id="s16"> <img src="star.png" id="star" alt=""> Canva Pro</h3>
+
+    <p id="r16">
+      For individuals wanting unlimited access <br />
+      to premium content, with special tools to <br />
+         row your brand or passion project
+    </p>
+
+    <button id="r1" type="button" class="btn btn-secondary">
+      Start your free  pro trail
+    </button>
+
+    
+    <h3 id="sr">  <img src="star.png" id="king2"> Canva for Teams</h3>
+    <p id="s19">
+      For teams of all sizes wanting to create <br> together, with premium workplace
+      tools <br> and approval flows.
+    </p>
+    <button id="sk" type="button" class="btn btn-secondary">
+      Start your free Teams trial
+    </button>
+    </div>
+
+    <p id="s21">
+       <a href="">Educational organisations </a>  and <a href="">nonprofits</a>  can enjoy premium Canva features
+        for free
+      </p>
+      <h2 id="s22">Trusted by well known companies</h2>
+
+      <div id="top">
+      <marquee behavior="scroll"  direction="Left"> <img src="in1.webp" id="lol" > <img id="sky" src="in2.webp" alt> <img src="in3.webp"   id="sony">  <img src="in4.webp" id="sale"> <img src="in5.webp" id="red" > <img src="in6.webp" id="dan" > </marquee>
+    
+    
+    </div>
+    <video class="tune"  autoplay loop muted id="haha">
+        <source src="haha.mp4" type="video/MP4" />
+      </video>
+
+
+      <h3 id="s23">Ready-made designs</h3>
+      <p id="s24">
+        Benefit from thousands of professional templates, images, <br> and quality
+        content to choose from, for example when <br> ordering new <a href="">business cards</a>  or
+        editing your next <a href="">video</a>.
+      </p>
+
+      <button id="ready" type="button" class="btn btn-secondary">Create a design </button>
+
+
+      <video  autoplay loop muted id="hahe">
+        <source src="https://static.canva.com/anon_home/benefits/benefits-collab-en-974x634.mp4" type="video/MP4" />
+      </video>
+
+      <h3  id="s25">Built for teamwork</h3>
+      <p id="see">
+        Invite people to edit with you or set your whole team up to <br> manage brand
+        assets, brainstorm on <a href="">whiteboards</a> , get <br> approvals, and scale content with
+        tools like <a href="">docs</a> .
+      </p>
+
+      <button id="dubai" type="button" class="btn btn-secondary"> Work together </button>
+
+      <br>
+ 
+      <img  id="new1" src="https://static.canva.com/anon_home/benefits/benefits-share-en-1288x838.jpg" alt="">
+
+      
+      <h3 id="s27">Too good not to share</h3>
+       
+      <p id="s28" >
+        Whether you build a new <a href="">website</a>  or need a custom <a href=""> poster</a>,    <br> let your
+        creations shine in the real world: Easily present,<br> download, schedule, and
+        share your designs. Or get them <br> printed and shipped directly to your
+        doorstep!
+      </p>
+
+      <button id="suku" type="button" class="btn btn-secondary"> 
+        Design your vision </button>
+
+      <h2 class="sr" id="sn">Templates for absolutely anything</h2>
+
+
+
+      
+    <p id="lm">
+      Customise an office template, or design something more personal, like an
+      invitation.
+    </p>
+
+
+    <div id="grid">
+      <div  ><img id="l1" src="gr1.webp" ></div>
+      <div  > <img id="l2" src="gr2.webp" >  </div>
+      <div ><img   id="l3"src="gr3.webp" ></div>
+      <div  ><img id="l4" src="gr4.webp" ></div>
+      <div ><img  id="l5" src="gr5.webp" ></div>
+      <div ><img id="l6" src="gr6.webp" ></div>
+      <div ><img id="l13" src="l13.webp" ></div>
+
+      <div ><img  id="l7" src="gr7.webp" ></div>
+      <div ><img  id="l8"src="gr8.jpg" ></div>
+      <div ><img  id="l44"src="gr9.webp" ></div>
+      <div ><img  id="l9"src="gr10.webp" ></div>
+      <div  ><img  id="l10"src="gr11.webp" ></div>
+     
+      <div ><img  id="l11" src="acha1.webp" ></div>
+      <div  ><img  id="l55"src="gr12.webp" ></div>
+
+    </div>
+    <button id="read" type="button" class="btn btn-secondary"> Browse all templates </button>
+    
+    <h2 id="s244">Create your best work, together</h2> <br>
+
+    <p id="s255">
+      Try Canva for Teams, the all-in-one solution for teams of all sizes to
+         create <br>
+    </p>
+    <p id="k255">and collaborate together.</p> 
+    <div style="display:flex;">
+    <img id="loop" src="leep.png" alt="">
+    <h6 id="s226">
+      Team  folders 
+     </h6>
+    <p id="m1">help you stay organised, store brand <br></p> <p id="m11"> assets, and manage content</p>
+
+     <br>
+     <h6 id="s277">
+      Plan, create, schedule, and publish 
+    </h6>
+    <p id="m2"> your social </p> <p id="m12">media posts directly from
+      Canva </p>
+
+    <br>
+    <h6 id="s2288">
+      Real-time collaboration 
+    </h6>     
+    <p class="pal"> across countries, </p> <p id="m14"> companies, and departments </p>
+
+    <br>
+    <h6 id="s229">
+      Built-in comments 
+    </h6>
+    
+    </div>
+    <p  id="m44"> to communicate, keep content </p> <p class="jay"> moving, and resolve
+      suggestions in real-time </p>
+      
+    <video width="700" height="422" autoplay loop muted id="conco">
+      <source src="teams-en-974x720.mp4" type="video/MP4" />
+    </video>
+<br>
+<button id="for" type="button" class="btn btn-secondary">Try Canva for Teams </button>
+
+
+    <br>
+    <h2 id="s31">We're full of surprises</h2>
+
+
+    <p id="s32">Here are some of our best traits you might not know about</p>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row row-cols-1 row-cols-md-5 g-3">
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img id="c1" src="c1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Canva Create 2023</h6>
+                  <p class="card-text">Watch all the highlights and launches from our  biggest virtual event.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img id="c2" src="c2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">We've got a desktop app</h6>
+                  <p class="card-text">Design and collaborate from the comfort of your desktop - no browser, no tabs, no distractions. Download the app for free!
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img src="c3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Businesses love us</h6>
+                  <p class="card-text">See how teams of all sizes are using Canva to   manage their workflows and create together.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img src="c4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title"> We make presenting easy</h6>
+                  <p class="card-text">Take the stress out of preparing and presenting with our go-to decks.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img src="c5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">We have a video editor</h6>
+                  <p class="card-text">Create and edit professional videos with easy animations, audio and more.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="cardresponse">
+        <div class="carousel-item">
+          <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img src="c6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title"> We're free for classrooms</h6>
+                  <p class="card-text">Use Canva for in-person, remote or hybrid learning  and teaching. Educators and students get their own <br> free version of Canva.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img src="c7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title"> We print and deliver</h6>
+                  <p class="card-text">Choose a designer-made template, customise it, and  we'll have it sustainably printed and delivered to your doorstep.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img src="c8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title"> We're sustainable</h6>
+                  <p class="card-text">Learn what we're doing about our carbon footprint, and how your Canva Print  order makes the world a  bit more breathable.
+                  </p>
+                </div>
+
+
+
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img src="c9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">We're free for non profits</h6>
+                  <p class="card-text">Non profits get their own free version of Canva, to  keep doing great work in the world.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="border: none;">
+                <img src="c10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">We're diverse</h6>
+                  <p class="card-text">Learn how we're supporting and amplifying diverse creators and unique cultures in every corner of the globe.</p>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+    <!-- <div style="display: flex;"> -->
+<footer class="footer">
+      <div class="container">
+        <div class="foot">
+          <div class="footer-col">
+            <h4>Features</h4>
+            <ul>
+              <li><a href="#">Curved text generator</a></li>
+              <li><a href="#">Photo effects </a></li>
+              <li><a href="#">Image enhancer</a></li>
+              <li><a href="#">Add text to photos</a></li>
+              <li><a href="#">Add frames to photos</a></li>
+              <li><a href="#">Online video recorder</a></li>
+              <li><a href="#">Convert videos to MP4</a></li>
+              <li><a href="#">See more features</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#">Design ideas</a></li>
+              <li><a href="#">Custom prints</a></li>
+              <li><a href="#">Font pairing</a></li>
+              <li><a href="#">Colours </a></li>
+              <li><a href="#">Colour wheel </a></li>
+              <li><a href="#">Colour pallete generator</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Apps</a></li>
+              <li><a href="#">Template directory</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+           <h4>Community</h4>
+           <ul>
+             <li><a href="#"> Online communities</a></li>
+             <li><a href="#">Creators </a></li>
+             <li><a href="#">Canva Represents Fund </a></li>
+             <li><a href="#">affiliate program</a></li>
+             <li><a href="#">Developers</a></li>
+             <li><a href="#">Partnerships</a></li>
+             <li><a href="#">Affiliates programme</a></li>
+           </ul>
+         </div>
+          <div class="footer-col">
+            <h4>Download </h4>
+            <ul>
+              <li><a href="#">iOS</a></li>
+              <li><a href="#">Android</a></li>
+              <li><a href="#">Windows</a></li>
+              <li><a href="#">Mac</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+           <h4>company</h4>
+           <ul>
+             <li><a href="#">about us</a></li>
+             <li><a href="#">Newsroom </a></li>
+             <li><a href="#"> Careers</a></li>
+             <li><a href="#"> Sustainability</a></li>
+             <li><a href="#">Trust Centre</a></li>
+             <li><a href="#">Security</a></li>
+             <li><a href="#">Terms and Privacy</a></li>
+ 
+           </ul>
+         </div>
+        
+          </div>
+        </div>
+        
+      </div>
+   </footer>
+ </div>  
+
+<div class="beg">
+
+
+<div class="ar0"><select >
+  <option value="">English(united kingdom)</option>
+  <option value="maths">Eest(Eesti)</option>
+  <option value="">English(Australia)</option>
+  <option value="">English(India)</option>
+  <option value="">English(Philippines)</option>
+  <option value="">English(us)</option>
+
+
+</select>
+
+</div>
+
+<img src="world.webp" id="wor" alt="">
+
+
+<div class="ar0 c"> <span> © 2023 All Rights Reserved, sahalshaz</span>  Privacy policy | Terms</div>
+
+
+<div class="ar0"> 
+  <a href="https://www.facebook.com/sahal.shaz.3?mibextid=LQQJ4d"><img src="face.jpeg" style="width:20px ;"></a>
+ <a href="https://twitter.com/canva"><img src="twi.jpeg" alt="" style="width:20px ;"></a>
+ <a href="https://www.pinterest.com/canva/"><img src="pin.jpeg" alt="" style="width:20px ;"></a>
+ <a href="https://www.instagram.com/s_a_h_al___/"><img src="insta.jpeg" alt="" style="width:20px ;"></a>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+
+  </body>
+</html>
